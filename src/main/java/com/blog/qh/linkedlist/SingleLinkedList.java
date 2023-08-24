@@ -108,6 +108,20 @@ public class SingleLinkedList {
         return element.value;
     }
 
+    public int remove(int index) {
+        Node node = findNode(index);
+        if (node != null) {
+            Node next = node.next;
+            if (index == 0) {
+                head = next;
+                return node.value;
+            }
+            Node preNode = findNode(index - 1);
+            preNode.next = next;
+            return node.value;
+        }
+        throw new IllegalArgumentException(String.format("index [%d]",index));
+    }
 
 
     public static void main(String[] args) {
@@ -135,6 +149,9 @@ public class SingleLinkedList {
         Node node5 = new SingleLinkedList().new Node(34);
         demo.insertbyIndex(0,node5);
         System.out.println(demo);
+        System.out.println(demo.remove(0));
+        System.out.println(demo);
+
     }
 
     @Override
