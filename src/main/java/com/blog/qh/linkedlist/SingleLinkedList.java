@@ -149,7 +149,7 @@ public class SingleLinkedList {
         Node node5 = new SingleLinkedList().new Node(34);
         demo.insertbyIndex(0,node5);
         System.out.println(demo);
-        System.out.println(demo.remove(0));
+        System.out.println(demo.remove(2));
         System.out.println(demo);
 
     }
