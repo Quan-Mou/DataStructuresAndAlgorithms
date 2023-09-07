@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fe5960-2178-46e9-acda-cf93c3df36fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DoubleLinkedListSentinel">
+  <component name="RunManager" selected="Application.DoubleCircularLinkedListSentinel">
+    <configuration name="DoubleCircularLinkedListSentinel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.blog.qh.linkedlist.DoubleCircularLinkedListSentinel" />
+      <module name="data-structuresAnd-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blog.qh.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoubleLinkedListSentinel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.blog.qh.linkedlist.DoubleLinkedListSentinel" />
       <module name="data-structuresAnd-algorithms" />
@@ -84,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleCircularLinkedListSentinel" />
         <item itemvalue="Application.DoubleLinkedListSentinel" />
         <item itemvalue="Application.SentinelSingleLinkedList" />
         <item itemvalue="Application.SingleLinkedList" />
@@ -101,6 +116,9 @@
       <workItem from="1693028097870" duration="20293000" />
       <workItem from="1693104798126" duration="616000" />
       <workItem from="1693133607939" duration="11219000" />
+      <workItem from="1693317513881" duration="2918000" />
+      <workItem from="1693564827056" duration="43000" />
+      <workItem from="1693960811610" duration="2024000" />
     </task>
     <servers />
   </component>
@@ -126,6 +144,11 @@
           <line>174</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/blog/qh/linkedlist/DoubleCircularLinkedListSentinel.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -137,6 +160,10 @@
         <watch expression="doubleLinkedListSentinel.tail.pre.next" />
         <watch expression="doubleLinkedListSentinel.tail.pre.next" />
         <watch expression="doubleLinkedListSentinel.head.next.next.next.next.next.next" />
+        <watch expression="((DoubleCircularLinkedListSentinel)this).sentinel" custom="com.blog.qh.linkedlist.DoubleCircularLinkedListSentinel" />
+        <watch expression="((DoubleCircularLinkedListSentinel)this).sentinel" custom="com.blog.qh.linkedlist.DoubleCircularLinkedListSentinel" />
+        <watch expression="node" />
+        <watch expression="node" />
       </configuration>
     </watches-manager>
   </component>
